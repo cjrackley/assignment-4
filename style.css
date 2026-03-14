@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 450px;
+}
+
+div {
+    padding: 15px;
+    border: 1px, solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border: 1px, solid;
+    border-radius: 5px;
+    height: 125px;
+    width: 120px;
+}
+
+button {
+    margin: 20px;
+}
+
+.chosen {
+    border: 2px, solid, red;
+}
