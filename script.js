@@ -35,7 +35,7 @@ let shuffleInterval;
 function startShuffle() {
     shuffleInterval = setInterval(() => {
         const randomIndex = Math.floor(Math.random() * images.length);
-        enemyImage.src = 'images/' + images[randomIndex] + '.png';
+        enemyImage.src = 'images/' + images[randomIndex] + '.PNG';
     }, 500);
 }
 
@@ -47,7 +47,7 @@ function randomImage() {
         clearInterval(shuffleInterval);
         const randomIndex = Math.floor(Math.random() * images.length);
         enemyChoice = images[randomIndex];
-        enemyImage.src = 'images/' + enemyChoice + '.png';
+        enemyImage.src = 'images/' + enemyChoice + '.PNG';
         result.textContent = "Results:";
 
         playGame();
