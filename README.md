@@ -1,2 +1,3 @@
-# assignment-4
-Rock Paper Scissors browser game
+# Rock Paper Scissors
+
+Rock paper scissors browser game using html and simple js.
